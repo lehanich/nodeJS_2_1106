@@ -1,7 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <header class="container">
+      <nav class="menu">
+        <router-link to="/" >Игра</router-link>
+        <router-link to="/log">Лог</router-link>
+      </nav>
+    </header>
+    <main class="container">
+      <router-view></router-view>
+    </main>
+    <footer class="container">
+
+    </footer>
   </div>
 </template>
 
@@ -19,5 +29,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+nav {
+  margin-bottom: 15px;
 }
 </style>

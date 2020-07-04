@@ -1,0 +1,350 @@
+[
+ {
+  "winner": "robot",
+  "robotNumber": "7867",
+  "date": "27.06.2020, 21:18:48",
+  "data": [
+   {
+    "date": "27.06.2020, 21:18:43",
+    "attempt": 1,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:18:47",
+    "attempt": 2,
+    "humanNumber": "3334",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:18:47",
+    "attempt": 3,
+    "humanNumber": "3334",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:18:47",
+    "attempt": 4,
+    "humanNumber": "3334",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:18:48",
+    "attempt": 5,
+    "humanNumber": "3334",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:18:48",
+    "attempt": 6,
+    "humanNumber": "3334",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:18:48",
+    "attempt": 7,
+    "humanNumber": "3334",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:18:48",
+    "attempt": 8,
+    "humanNumber": "3334",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:18:48",
+    "attempt": 9,
+    "humanNumber": "3334",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:18:48",
+    "attempt": 10,
+    "humanNumber": "3334",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   }
+  ]
+ },
+ {
+  "winner": "robot",
+  "robotNumber": "5715",
+  "date": "27.06.2020, 21:19:01",
+  "data": [
+   {
+    "date": "27.06.2020, 21:18:58",
+    "attempt": 1,
+    "humanNumber": "6784",
+    "cows": 0,
+    "bulls": 1,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:18:59",
+    "attempt": 2,
+    "humanNumber": "6784",
+    "cows": 0,
+    "bulls": 1,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:18:59",
+    "attempt": 3,
+    "humanNumber": "6784",
+    "cows": 0,
+    "bulls": 1,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:18:59",
+    "attempt": 4,
+    "humanNumber": "6784",
+    "cows": 0,
+    "bulls": 1,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:18:59",
+    "attempt": 5,
+    "humanNumber": "6784",
+    "cows": 0,
+    "bulls": 1,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:19:00",
+    "attempt": 6,
+    "humanNumber": "6784",
+    "cows": 0,
+    "bulls": 1,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:19:00",
+    "attempt": 7,
+    "humanNumber": "6784",
+    "cows": 0,
+    "bulls": 1,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:19:00",
+    "attempt": 8,
+    "humanNumber": "6784",
+    "cows": 0,
+    "bulls": 1,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:19:00",
+    "attempt": 9,
+    "humanNumber": "6784",
+    "cows": 0,
+    "bulls": 1,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:19:01",
+    "attempt": 10,
+    "humanNumber": "6784",
+    "cows": 0,
+    "bulls": 1,
+    "winner": "robot"
+   }
+  ]
+ },
+ {
+  "winner": "robot",
+  "robotNumber": "6295",
+  "date": "27.06.2020, 21:30:12",
+  "data": [
+   {
+    "date": "27.06.2020, 21:30:07",
+    "attempt": 1,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:30:10",
+    "attempt": 2,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:30:10",
+    "attempt": 3,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:30:10",
+    "attempt": 4,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:30:10",
+    "attempt": 5,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:30:11",
+    "attempt": 6,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:30:11",
+    "attempt": 7,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:30:11",
+    "attempt": 8,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:30:11",
+    "attempt": 9,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:30:12",
+    "attempt": 10,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   }
+  ]
+ },
+ {
+  "winner": "robot",
+  "robotNumber": "1820",
+  "date": "27.06.2020, 21:31:03",
+  "data": [
+   {
+    "date": "27.06.2020, 21:31:00",
+    "attempt": 1,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:31:01",
+    "attempt": 2,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:31:01",
+    "attempt": 3,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:31:01",
+    "attempt": 4,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:31:01",
+    "attempt": 5,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:31:02",
+    "attempt": 6,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:31:02",
+    "attempt": 7,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:31:02",
+    "attempt": 8,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:31:02",
+    "attempt": 9,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   },
+   {
+    "date": "27.06.2020, 21:31:03",
+    "attempt": 10,
+    "humanNumber": "3333",
+    "cows": 0,
+    "bulls": 0,
+    "winner": "robot"
+   }
+  ]
+ }
+]
