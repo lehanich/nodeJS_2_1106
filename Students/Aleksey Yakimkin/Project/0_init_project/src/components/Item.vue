@@ -1,11 +1,11 @@
 <template>
     <div :class="computedWrapperClassName">
         <!--img :src="computedImgSrc" :alt="calcAlt"-->
-        <img :src="computedImgSrc" :alt="item.product_name">
+        <img :src="computedImgSrc" :alt="item.name">
 
         <template v-if="type=='catalog'">
             <div class="desc">
-                <h1>{{ item.product_name }}</h1>
+                <h1>{{ item.name }}</h1>
                 <p>{{ item.price }}</p>
                 <button 
                     class="buy-btn" 
@@ -17,8 +17,8 @@
 
         <template v-if="type=='basket'">
             <div class="product-desc">
-                <p class="product-title">{{ item.product_name }}</p>
-                <p class="product-quantity">{{ item.quantity }}</p>
+                <p class="product-title">{{ item.name }}</p>
+                <p class="product-quantity">{{ item.amount }}</p>
                 <p class="product-single-price">{{ item.price }}</p>
             </div>
             <div class="right-block">
@@ -29,7 +29,7 @@
         <template v-else-if="type === 'temp'">
             <div class="desc w-75">
                 <label >
-                    <input type="text" placeholder="Item name" v-model="newProduct.product_name" class="w-50">
+                    <input type="text" placeholder="Item name" v-model="newProduct.name" class="w-50">
                 </label>
                 <label >
                     <input type="number" placeholder="Item price" v-model="newProduct.price" class="w-50">
@@ -48,7 +48,7 @@ export default {
     data() {
         return {
             newProduct: {
-                product_name: '',
+                name: '',
                 price: 0
             }
         }
@@ -60,7 +60,7 @@ export default {
         },
         item: {
             type: Object,
-            default: () => ({ product_name: 'Default' })
+            default: () => ({ name: 'Default' })
         }
     },
     computed: {
@@ -71,14 +71,14 @@ export default {
             return `https://placehold.it/${this.type == 'catalog' ? '200x150' : '100x80'}`
         },
         // calcAlt() {
-        //     return this.item ? this.item.product_name : 'template';
+        //     return this.item ? this.item.name : 'template';
         // }
     },
     methods: {
         createNew(item) {
-            if(item.product_name && item.price) {
+            if(item.name && item.price) {
                 this.$emit('createnew', item); //new custom event generated
-                this.newProduct.product_name = '';
+                this.newProduct.name = '';
                 this.newProduct.price = 0;
             }
         }

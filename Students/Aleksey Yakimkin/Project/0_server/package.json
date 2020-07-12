@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "api": "nodemon server"
+    "api": "nodemon server",
+    "fill": "node server/Utils/dbfiller"
   },
   "nodemonConfig": {
     "ignore": [
@@ -18,5 +19,8 @@
     "express": "^4.17.1",
     "moment": "^2.26.0",
     "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "mongoose": "^5.9.22"
   }
 }

@@ -3,15 +3,13 @@ let writer = require('../Utils/writer');
 let fs = require('fs');
 let catalogServices = require('../Services/catalog');
 
+// let CatalogController = require('../controllers/catalog_controller.js');
+let { load } = require('../controllers/catalog_controller.js');
+
+
 let router = express.Router();
 
-router.get('/', (req, res) => {
-    fs.readFile('./server/db/catalog.json', 'utf-8', (err, data) => {
-        if (!err) {
-            res.send(data);
-        }
-    })
-});
+router.get('/', load);
 
 router.post('/', (req, res) => {
     fs.readFile('./server/db/catalog.json', 'utf-8', (err, data) => {
