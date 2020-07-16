@@ -10,6 +10,7 @@
     </header>
     <main>
         <Catalog @add="addItem" ref="catalog"/>
+        <Chat />
     </main>
   </div>
 </template>
@@ -18,9 +19,10 @@
 import Basket from '../containers/Basket.vue'
 import Catalog from '../containers/Catalog.vue'
 import FormSearch from '../components/Search'
+import Chat from '../components/Chat'
 
 export default {
-    components: { Basket, Catalog, FormSearch },
+    components: { Basket, Catalog, FormSearch, Chat },
     data() {
         return {
             showBasket: false
