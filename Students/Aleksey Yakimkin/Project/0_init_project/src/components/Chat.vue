@@ -54,16 +54,17 @@ export default {
             text: '',
             currentReceiver: '',
             //hardCode
-            sender: '5f0b33e7d2221317ed8592f5',
+            sender: '5f0b402203e614c19c6ea70f',
             receiver: '5f0b3775d2221317ed8592f6'
         }
     },
     mounted() {
         this.$parent.get('api/messages' + this.$route.path).then(d => {
+            console.log(d)
             this.messages = d;
         })
         //hardCode
-        let test = '5f0b33e7d2221317ed8592f5'
+        let test = '5f0b402203e614c19c6ea70f'
         this.receiver == test ? this.receiver = '5f0b3775d2221317ed8592f6' : this.receiver = test;
         socket.on('receive', d => { console.log(d) })
     },
